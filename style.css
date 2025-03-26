@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+     
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+      }
+      
+
+.header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+     background-color: rgb(248,248,244);
+}
+.header>img{
+    height: 70px;
+    width: 70px;
+}
+.headerlinks{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: trasform 500ms;
+}
+.links:hover{
+    transform:scale(1.5,1.5);
+}
+#home{
+    margin: 100px 0px 100px 0px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 60vh;
+    justify-content: space-around;
+}
+.homeimg>img{
+    width:70%;
+    height:100%;
+}
+.homecnt>h1{
+    margin-bottom:30px;
+    font-size: 49px;
+    
+}
+.homecnt>p{
+    text-align: justify;
+    margin-bottom:30px;
+}
+.homecnt>a{
+    text-decoration: none;
+    color:white;
+    background-color:blue;
+    padding:25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+.homehead>span{
+    color:blueviolet
+}
+#about{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 60vh;
+    justify-content: space-around;
+}
+.abtcnt>h2{
+    margin-bottom: 30px;
+}
+.abtcnt>p{
+    text-align: justify;
+}
+.abtimg>img{
+    width:100px;
+    height:100px;
+}
+.contact{
+    font-size: small;
+    color: rgb(64,0,255);
+    margin-top:40px;
+    margin-left:40px;
+}
+.contact>li{
+    margin-bottom: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
